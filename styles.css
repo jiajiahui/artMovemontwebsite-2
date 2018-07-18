@@ -1,0 +1,121 @@
+/*styles for BAW more html demo*/
+body {
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #816C34;
+    padding: 1em;
+    /* margin: 5em; */
+}
+    
+header a {
+     font-family: 'Montserrat', sans-serif;
+     text-decoration: none;
+     color: white;
+}
+
+}
+nav a {
+     text-align: right;
+     text-decoration: one;
+     color: white;
+}
+
+nav a :hover {
+     /* background-color: gold; */
+     border-left: solid 1em gold;
+     /* border-bottom: dotted .25em blue; */
+}
+
+/* 
+header h1 {
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     text-align: center;
+}
+ */
+
+header h2 {
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     text-align: left;
+     font-size: 30px;
+     font-weight: 800;
+}
+
+h1{
+     font-family: 'Montserrat', sans-serif;
+     color: #816C34;
+     text-align: center;
+}
+     
+     
+/* 
+nav ul {
+     list-style-type: none;
+     text-align: center;
+     margin: 0;
+     padding:0;
+}
+     
+nav li {
+     display: inline;
+     margin: 15em;
+ */
+}
+
+p1 {
+     font-family: 'Montserrat', sans-serif;
+     color: #816C34;
+     text-align: center
+}
+
+footer {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #816C34;
+   color: white;
+   text-align: center;
+   padding: 1em;
+}
+
+footer a {
+   text-decoration: none;
+}
+
+.social{
+    width: 3em;
+    margin: 1em;
+}
+
+.selected {
+    font-style: bold;
+    color: greens;
+}
+
+.image {
+    width: 100%;  /*50vh; means 0-100 viewpoint high*/
+    max-width: 500px;
+/* end responsive properties*/
+    display: block;
+    margin: auto; 
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background-color: red;
+}
+.flexChildren {
+    margin: 1em;
+    width: 300px;   
+    display: left;
+}
+
+
+
+
+
+
+

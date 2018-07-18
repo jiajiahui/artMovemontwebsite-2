@@ -1,0 +1,57 @@
+/*styles for my BAE demo about more css techniques */
+
+header {
+    background-color: lightGrey;
+   /* 
+ position: fixed;
+    top: 0;
+ */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /flex-start; flex-end; spce-between/
+}
+nav Li {
+    List-style-type: none;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    margin: 1em;
+    color: white;
+}
+nav a:hover {
+    text-decoration: none;
+    margin: 1em;
+    color: yellow;
+}
+footer {
+    background-color: lightGrey;
+    /* 
+position: fixed;
+    bottom: 0;
+    right: 0;
+ */
+}
+
+.absoluteClass{
+    position: absolute;
+    top: 0;
+}
+.relativeClass {
+    position: relative;
+}
+.constrainedClass {
+    width: 100%;
+    background-color: purple; 
+}
+.constrainedClass img{
+    width: 30%;
+    margin: 1em;
+    background-color: purple;   
+}
+.flexChildren {
+    background-color: red;
+    margin: 1em;
+    width: 300px;    
+}
