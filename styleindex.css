@@ -1,7 +1,4 @@
-/*styles for artMovement About&Arts*/
-body {
-
-}
+/*styles for artMovement index*/
 
 header {
 	width:100%;
@@ -12,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     font-family: 'Montserrat', sans-serif;
-    background-color: #816C34;
+    background: #816C34;
     padding: 1em;
     /* margin: 5em; */
 }
@@ -59,37 +56,16 @@ h1{
      text-align: center;
 }
      
-
-
-
-p {
-     font-family: 'Montserrat', sans-serif;
-     color: #816C34;
-     text-align: left; 
-     width: 100%;
-     max-width: 500px;
-     margin: auto;
-        
-}
-
-
 footer {
    font-family: 'Montserrat', sans-serif; 400;
    background-color: #816C34;
+   color: white;
    text-align: center;
    padding: 1em;
-   margin-top: 5em;
 }
 
 footer a {
    text-decoration: none;
-}
-
-footer p{
-   font-family: 'Montserrat', sans-serif; 400;
-   color: white;
-   text-align: center;
-   margin-top: 2em;
 }
 
 .social{
@@ -105,22 +81,21 @@ footer p{
 
 .image {
     width: 100%;  /*50vh; means 0-100 viewpoint high*/
-    max-width: 500px;
+    max-width: 1000px;
 /* end responsive properties*/
     display: block;
     margin: auto; 
     margin-bottom: 1em;
     margin-top: 1em;
+    background-color: red;
 }
 .flexChildren {
     margin: 1em;
     width: 300px;   
     display: left;
 }
-
-
-
-
-
-
-
+/* 
+.backgroundimage {
+     background-image: url("pictures/The Kiss_Gustav Klimt.jpg");
+}
+ */
